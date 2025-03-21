@@ -118,7 +118,7 @@ jobs:
         run: npm run build --prod
 
       - name: Create zip file
-        run: zip -r Rafael_Gomez.zip . dist/
+        run: zip -r Rafael_Gomez.zip dist/
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
